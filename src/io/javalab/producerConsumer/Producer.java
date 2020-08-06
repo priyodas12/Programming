@@ -19,6 +19,7 @@ public class Producer implements Runnable {
             synchronized (sharedQueue){
                 while(sharedQueue.size()==maxSize){
                     try {
+                        System.out.println("Container is Full!!,please wait until object picked!!");
                         sharedQueue.wait();
                     } catch (InterruptedException e) {
                         e.printStackTrace();

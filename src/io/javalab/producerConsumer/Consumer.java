@@ -18,6 +18,7 @@ public class Consumer implements Runnable{
             synchronized (sharedQueue){
                 while(sharedQueue.isEmpty()){
                     try {
+                        System.out.println("Container is Empty!!,please wait until object picked!!");
                         sharedQueue.wait();
                     } catch (InterruptedException e) {
                         e.printStackTrace();
