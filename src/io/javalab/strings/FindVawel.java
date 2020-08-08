@@ -14,6 +14,8 @@ public class FindVawel {
         System.out.println("enter first");
         String inputString=scn.next();
 
-        inputString.chars().mapToObj(i->(char)i).forEach(i-> System.out.print(checkVawel(i)?i:""));
+        inputString.chars()
+                .mapToObj(i->(char)i)
+                .forEach(i-> System.out.print(checkVawel(i)?i:""));
     }
 }
