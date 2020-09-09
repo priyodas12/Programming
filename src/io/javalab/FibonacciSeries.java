@@ -10,7 +10,6 @@ public class FibonacciSeries {
             return k;
         }
         return checkAndPrintFibonacci(k-1)+checkAndPrintFibonacci(k-2);
-
     }
     public static void main(String[] args) {
         Scanner scn=new Scanner(System.in);
