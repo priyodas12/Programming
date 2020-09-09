@@ -15,7 +15,6 @@ public class Factorial {
         Scanner scn=new Scanner(System.in);
         System.out.println("Enter End Number::");
         int num=scn.nextInt();
-
         System.out.println(printFactorialValue(num));
     }
 }
