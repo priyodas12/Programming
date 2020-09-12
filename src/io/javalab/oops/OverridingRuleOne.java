@@ -5,7 +5,7 @@ package io.javalab.oops;
 * co-variant return type is allowed.(child class lower level return type is allowed.)
 */
 
-public class OverriddingRuleOne {
+public class OverridingRuleOne {
     public static void main(String[] args) {
         P p=new P();
         C c=new C();
