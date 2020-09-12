@@ -3,6 +3,7 @@ package io.javalab.oops;
 /*Rules:
 * method signature should be same
 * co-variant return type is allowed.(child class lower level return type is allowed.)
+* co-variant return type not applicable for primitive.
 */
 
 public class OverridingRuleOne {
